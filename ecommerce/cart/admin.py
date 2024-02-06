@@ -1,6 +1,7 @@
 from django.contrib import admin
 from cart.models import Cart
 from cart.models import Order, Account
+from django.http import HttpResponse
 
 # Register your models here.
 admin.site.register(Cart)
